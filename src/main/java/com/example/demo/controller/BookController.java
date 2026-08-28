@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("api/books")
 public class BookController {
 
     private final BookRepository bookRepository;
